@@ -1,0 +1,17 @@
+{
+  "name": "ERPSimple — Medical ERP",
+  "short_name": "ERPSimple",
+  "description": "Simple Medical ERP with Zoho Integration",
+  "start_url": "/simpleerp/",
+  "scope": "/simpleerp/",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/simpleerp/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
