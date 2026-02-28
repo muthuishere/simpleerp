@@ -176,7 +176,7 @@ function Header({ onMenu }) {
 export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
-    <BrowserRouter basename="/simpleerp">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div style={{ display: 'flex', height: '100vh', width: '100%', overflow: 'hidden', background: 'var(--bg)' }}>
         <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}
